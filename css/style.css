@@ -1,0 +1,54 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.quarter{background-color: red;
+width: 25%;
+display: block;
+color: white;
+border: 3px solid green;
+box-sizing: border-box;
+position: relative;
+left:10px;
+top:10px;
+
+}
+
+#reel{
+    font-size: 5em;
+    height:1.3em;
+    display:inline-block;
+    width: 2em;
+    overflow-y: scroll;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 3em 3em;
+    grid-template-columns: 10em 10em 10em 10em;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+/* .grid-real {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+.button{
+    border: 3px solid blue;
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    box-shadow: 10px 10px 5px #AAAAAA;  /* create a 'drop shadow' for a 3d/floating look */
+}
+
